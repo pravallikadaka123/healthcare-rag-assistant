@@ -6,7 +6,7 @@ router = APIRouter()
 logger = get_logger(__name__)
 
 
-@router.get("/health")
+@router.get("")
 async def health():
     logger.info("Health check requested")
     return {

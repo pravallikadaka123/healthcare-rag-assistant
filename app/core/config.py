@@ -27,6 +27,11 @@ class Settings(BaseSettings):
     # Logging
     log_level: str = "INFO"
 
+    # Document processing
+    chunk_size: int = 1000
+    chunk_overlap: int = 200
+    documents_dir: str = "documents"
+
     model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding="utf-8",
