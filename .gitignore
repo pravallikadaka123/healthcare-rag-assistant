@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ChromaDB vector store
+chroma_db/
+# ChromaDB vector store
+chroma_db/
